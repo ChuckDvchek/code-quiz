@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h3 class="header">Coding Quiz Challenge</h3>
+    </header>
+    <main>
+        <!-- Starting Page -->
+        <div id="start">
+            <p class="main">
+                Try out this coding quiz! If you answer wrong, you will lose time on the clock. Good Luck!
+            </p>
+            <button id="start-btn">Start Quiz</button>
+        </div>
+
+        <!-- Taking the quiz Page -->
+        <div id="options">
+            <button id="option1"></button>
+            <button id="option2"></button>
+            <button id="option3"></button>
+            <button id="option4"></button>
+            <p id="timer">Timer</p>
+        </div>
+
+        <!-- Prompt to add this attempt to scoreboard? -->
+        <div id="adding-score">
+            <p id="adding-score-score">Your score:</p>
+            <p>Name: </p>
+            <input id="score-name" type="text">
+            <button id="adding-score-yes">Yes</button>
+            <button id="adding-score-no">No</button>
+        </div>
+
+        <!-- Scoreboard Page -->
+        <div id="score">
+            <ul id="scoreboard"></ul>
+            <div id="clear-scoreboard"></div>
+            <button id="clear-score">Clear Scoreboard</button>
+            <button id="play-again">Play Again?</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
