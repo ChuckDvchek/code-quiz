@@ -9,7 +9,7 @@
     - After hitting enter, your name and score will be put on the list of highscores.
     - You will be given the option to return to the start page and play again, or wipe all saved scores from the list.
 
-![coding quiz website screenshot](screenshot.png)
+![coding quiz website screenshot](./assets/images/screenshot.png)
 
 ## Live Site: 
 https://chuckdvchek.github.io/code-quiz/
